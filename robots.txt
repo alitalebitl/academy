@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /assets/fonts/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term
+
+# Important pages
+Allow: /index.html
+Allow: /courses/
+Allow: /blog/
+
+# Sitemaps
+Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://your-domain.com/courses-sitemap.xml
+Sitemap: https://your-domain.com/blog-sitemap.xml
+
+# Crawl optimization
+Crawl-delay: 1
+
+# Host setting
+Host: your-domain.com
